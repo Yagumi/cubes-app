@@ -1,0 +1,28 @@
+.StartGameField {
+	width: 100%;
+}
+
+.StartGameField h1 {
+	color: brown;	
+}
+
+.StartGameField-buttons {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+
+.StartGameField button {
+	width: 150px;
+	height: 50px;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background-color: purple;
+	color: beige;
+}
+
+.StartGameField button:hover,.StartGameField button:focus {
+	background-color: brown;
+}

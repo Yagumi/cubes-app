@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import CubesGame from './components/CubesGame.js';
+import CubesApp from './components/CubesApp';
 
 
 
@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return(
       <div className="App">
-        <CubesGame />
+        <CubesApp />
       </div>
     )
   }

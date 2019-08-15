@@ -1,0 +1,8 @@
+.RulesDesk {
+	margin-top: 10px;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	color: brown;
+}

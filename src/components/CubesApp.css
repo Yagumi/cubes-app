@@ -1,0 +1,23 @@
+.CubesApp {
+	margin: 30px auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	border: 2px solid brown;
+	box-sizing: border-box;
+	background-color: beige;
+}
+
+.CubesApp-startButton {
+	margin-top: 20px;
+	width: 150px;
+	height: 50px;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background-color: brown;
+	color: beige;
+}

@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 
-function StartGameField() {
+import './StartGameField.css';
+
+function StartGameField({updateEasyLevel, updateMiddleLevel, updateHardLevel}) {
   return(
    	<div className="StartGameField">
-   		<button>Low Level</button>
-   		<button>Middle Level</button>
-   		<button>Hard Level</button>
+   		<h1>Choose Your Game Level</h1>
+   		<div>
+   			<button className="low" onClick={updateEasyLevel}>Start Easy Game</button>
+   			<button className="low" onClick={updateMiddleLevel}>Start Middle Game</button>
+   			<button className="low" onClick={updateHardLevel}>Start Hard Game</button>
+   		</div>
    	</div>
   );
 }
